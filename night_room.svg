@@ -9,52 +9,147 @@
       <stop offset="0%" style="stop-color:#0f1746;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
     </linearGradient>
+    
+    <!-- Parlayan yıldız filtresi -->
+    <filter id="star-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="glow" />
+      <feComposite in="SourceGraphic" in2="glow" operator="over" />
+    </filter>
+    
+    <!-- Ay ışığı filtresi -->
+    <filter id="moon-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 1  0 1 0 0 1  0 0 1 0 0.8  0 0 0 18 -7" result="glow" />
+      <feComposite in="SourceGraphic" in2="glow" operator="over" />
+    </filter>
+    
+    <!-- Kedi göz filtresi -->
+    <filter id="cat-eye-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0.9  0 1 0 0 0.8  0 0 1 0 0  0 0 0 18 -7" result="glow" />
+      <feComposite in="SourceGraphic" in2="glow" operator="over" />
+    </filter>
   </defs>
   <rect width="600" height="400" fill="url(#skyGradient)" />
   
-  <!-- Yıldızlar -->
+  <!-- Pencere -->
+  <rect x="50" y="50" width="150" height="200" fill="#182952" stroke="#8b5a2b" stroke-width="4" rx="5" ry="5" />
+  <line x1="125" y1="50" x2="125" y2="250" stroke="#8b5a2b" stroke-width="4" />
+  <line x1="50" y1="150" x2="200" y2="150" stroke="#8b5a2b" stroke-width="4" />
+  
+  <!-- Yıldızlar (parlıyor) -->
   <g>
-    <circle cx="50" cy="50" r="1" fill="white" opacity="0.8" />
-    <circle cx="150" cy="70" r="1.5" fill="white" opacity="0.7" />
-    <circle cx="250" cy="30" r="1" fill="white" opacity="0.6" />
-    <circle cx="350" cy="90" r="1.2" fill="white" opacity="0.9" />
-    <circle cx="450" cy="40" r="1" fill="white" opacity="0.7" />
-    <circle cx="520" cy="80" r="1.3" fill="white" opacity="0.8" />
-    <circle cx="100" cy="120" r="1" fill="white" opacity="0.6" />
-    <circle cx="200" cy="140" r="1.1" fill="white" opacity="0.7" />
-    <circle cx="300" cy="100" r="1.4" fill="white" opacity="0.8" />
-    <circle cx="400" cy="130" r="1" fill="white" opacity="0.7" />
-    <circle cx="480" cy="150" r="1.2" fill="white" opacity="0.9" />
-    <circle cx="550" cy="120" r="1" fill="white" opacity="0.8" />
-    <circle cx="120" cy="180" r="1.3" fill="white" opacity="0.7" />
-    <circle cx="220" cy="200" r="1" fill="white" opacity="0.6" />
-    <circle cx="320" cy="160" r="1.5" fill="white" opacity="0.8" />
-    <circle cx="420" cy="190" r="1.2" fill="white" opacity="0.7" />
-    <circle cx="500" cy="210" r="1" fill="white" opacity="0.6" />
-    <circle cx="70" cy="240" r="1.1" fill="white" opacity="0.8" />
-    <circle cx="170" cy="260" r="1.4" fill="white" opacity="0.7" />
-    <circle cx="270" cy="220" r="1" fill="white" opacity="0.9" />
-    <circle cx="370" cy="250" r="1.3" fill="white" opacity="0.8" />
-    <circle cx="470" cy="270" r="1.2" fill="white" opacity="0.7" />
-    <circle cx="530" cy="230" r="1" fill="white" opacity="0.6" />
+    <circle cx="50" cy="50" r="1" fill="white" opacity="0.8" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="150" cy="70" r="1.5" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="250" cy="30" r="1" fill="white" opacity="0.6" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="350" cy="90" r="1.2" fill="white" opacity="0.9" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="450" cy="40" r="1" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="520" cy="80" r="1.3" fill="white" opacity="0.8" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="100" cy="120" r="1" fill="white" opacity="0.6" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="140" r="1.1" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="100" r="1.4" fill="white" opacity="0.8" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="400" cy="130" r="1" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="480" cy="150" r="1.2" fill="white" opacity="0.9" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="550" cy="120" r="1" fill="white" opacity="0.8" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="120" cy="180" r="1.3" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="220" cy="200" r="1" fill="white" opacity="0.6" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="320" cy="160" r="1.5" fill="white" opacity="0.8" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="420" cy="190" r="1.2" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="500" cy="210" r="1" fill="white" opacity="0.6" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="70" cy="240" r="1.1" fill="white" opacity="0.8" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="170" cy="260" r="1.4" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="270" cy="220" r="1" fill="white" opacity="0.9" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="370" cy="250" r="1.3" fill="white" opacity="0.8" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="470" cy="270" r="1.2" fill="white" opacity="0.7" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="530" cy="230" r="1" fill="white" opacity="0.6" filter="url(#star-glow)">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="6s" repeatCount="indefinite" />
+    </circle>
   </g>
   
-  <!-- Ay -->
-  <circle cx="500" cy="80" r="40" fill="#fdfbd3" />
+  <!-- Yıldız Kayması -->
+  <path d="M450,20 L420,50" stroke="white" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0" dur="5s" begin="1s" repeatCount="indefinite" />
+  </path>
+  <path d="M200,40 L150,100" stroke="white" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.8;0" dur="7s" begin="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Ay (parlamalı) -->
+  <circle cx="500" cy="80" r="40" fill="#fdfbd3" filter="url(#moon-glow)" />
   <circle cx="520" cy="70" r="10" fill="#0f1746" opacity="0.1" />
   <circle cx="480" cy="85" r="8" fill="#0f1746" opacity="0.1" />
   
-  <!-- Yatak Çerçevesi -->
+  <!-- Duvardaki Poster -->
+  <rect x="400" y="150" width="100" height="70" fill="#2a1b3d" stroke="#d4a373" stroke-width="2" rx="5" ry="5" />
+  <text x="450" y="190" text-anchor="middle" fill="#f7c59f" font-family="Arial" font-size="12">DREAM BIG</text>
+  
+  <!-- Masa ve Lambası -->
+  <rect x="50" y="280" width="80" height="50" fill="#8b5a2b" rx="5" ry="5" />
+  <rect x="60" y="330" width="60" height="10" fill="#6c584c" />
+  <rect x="60" y="260" width="8" height="20" fill="#d4a373" />
+  <circle cx="64" cy="250" r="10" fill="#f7b801" filter="url(#moon-glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Yatak Çerçevesi ve Yastığı geliştirme -->
   <rect x="150" y="300" width="300" height="60" fill="#8b5a2b" rx="10" ry="10" />
   
   <!-- Yatak Üstü -->
   <rect x="160" y="270" width="280" height="40" fill="#d4a373" rx="10" ry="10" />
   
-  <!-- Yastık -->
-  <rect x="180" y="270" width="80" height="30" fill="#e9edc9" rx="10" ry="10" />
+  <!-- Yastık (Geliştirilmiş) -->
+  <ellipse cx="200" cy="285" rx="40" ry="20" fill="#e9edc9" />
+  <ellipse cx="200" cy="285" rx="35" ry="15" fill="#f8f9fa" opacity="0.3" />
   
   <!-- Yorgan -->
   <rect x="180" y="270" width="240" height="25" fill="#ccd5ae" rx="5" ry="5" />
+  <path d="M180,280 Q300,290 420,280" stroke="#a3b18a" stroke-width="2" fill="none" />
+  <path d="M180,290 Q300,300 420,290" stroke="#a3b18a" stroke-width="2" fill="none" />
   
   <!-- Kedi -->
   <g>
@@ -68,18 +163,31 @@
     <polygon points="375,215 385,225 365,225" fill="#6c584c" />
     <polygon points="405,215 415,225 395,225" fill="#6c584c" />
     
-    <!-- Kedi Gözleri (Kapalı) -->
-    <line x1="380" y1="245" x2="390" y2="245" stroke="#513c32" stroke-width="2" />
-    <line x1="400" y1="245" x2="410" y2="245" stroke="#513c32" stroke-width="2" />
+    <!-- Kedi Gözleri (Hafif Açık ve Parlıyor) -->
+    <ellipse cx="380" cy="245" rx="5" ry="1" fill="#513c32" filter="url(#cat-eye-glow)">
+      <animate attributeName="ry" values="1;0.5;1" dur="4s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="400" cy="245" rx="5" ry="1" fill="#513c32" filter="url(#cat-eye-glow)">
+      <animate attributeName="ry" values="1;0.5;1" dur="4s" repeatCount="indefinite" />
+    </ellipse>
     
-    <!-- Kedi Kuyruğu -->
+    <!-- Kedi Burnu -->
+    <polygon points="390,250 387,255 393,255" fill="#513c32" />
+    
+    <!-- Kedi Bıyıkları -->
+    <line x1="387" y1="252" x2="370" y2="250" stroke="#513c32" stroke-width="0.5" />
+    <line x1="387" y1="253" x2="370" y2="255" stroke="#513c32" stroke-width="0.5" />
+    <line x1="393" y1="252" x2="410" y2="250" stroke="#513c32" stroke-width="0.5" />
+    <line x1="393" y1="253" x2="410" y2="255" stroke="#513c32" stroke-width="0.5" />
+    
+    <!-- Kedi Kuyruğu (Geliştirilmiş Animasyon) -->
     <path d="M290,260 Q 270,230 260,250" stroke="#6c584c" stroke-width="10" fill="transparent">
       <animateTransform 
         attributeName="transform"
         type="rotate"
         from="0 290 260"
         to="10 290 260"
-        dur="2s"
+        dur="3s"
         repeatCount="indefinite"
         additive="sum"
         values="0 290 260; 5 290 260; 0 290 260; -5 290 260; 0 290 260"
@@ -87,4 +195,15 @@
       />
     </path>
   </g>
+  
+  <!-- Nefes Alan Kedi Efekti -->
+  <ellipse cx="340" cy="260" rx="48" ry="18" fill="#6c584c" opacity="0.7">
+    <animate attributeName="ry" values="18;19;18" dur="4s" repeatCount="indefinite" />
+  </ellipse>
+  
+  <!-- Hafif Ay Işığı Odaya Yansıyor -->
+  <rect x="150" y="250" width="300" height="20" fill="#fdfbd3" opacity="0.05" />
+  
+  <!-- Oda Gölgeleri -->
+  <rect x="0" y="350" width="600" height="50" fill="black" opacity="0.3" />
 </svg> 
