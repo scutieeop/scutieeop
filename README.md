@@ -53,29 +53,74 @@
   
   <br>
   
-  <h2>🐱 Sanal Kedim</h2>
-  <div id="cat-container" style="position: relative; width: 400px; height: 300px; background-color: #f5f5f5; border-radius: 15px; margin: 0 auto; border: 2px solid #ddd; overflow: hidden;">
-    <img src="https://raw.githubusercontent.com/piyushsuthar/github-readme-quotes/master/public/images/cats/nyancat.gif" style="width: 100px; position: absolute; bottom: 20px; left: 150px;" alt="Kedi"/>
-    <div style="position: absolute; bottom: 0; width: 100%; height: 20px; background-color: #ddd;"></div>
-    <div style="position: absolute; top: 10px; width: 100%; text-align: center;">
-      <div style="background-color: #fff; display: inline-block; padding: 5px 15px; border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        <span style="font-size: 14px; font-weight: bold;">Merhaba! Ben Berkay'ın kedisi! 😺</span>
-      </div>
+  <h2>🐱 Odamdaki Kedim</h2>
+  <div style="position: relative; width: 500px; height: 350px; background-color: #F8E9E2; border-radius: 15px; margin: 0 auto; border: 2px solid #ddd; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+    <!-- Duvar ve taban -->
+    <div style="position: absolute; width: 100%; height: 250px; background-color: #E8C7BC; top: 0;"></div>
+    <div style="position: absolute; width: 100%; height: 100px; background-color: #A37B73; bottom: 0;"></div>
+    
+    <!-- Pencere -->
+    <div style="position: absolute; width: 120px; height: 120px; background-color: #ADD8E6; top: 40px; right: 40px; border: 5px solid #8B4513; box-shadow: inset 0 0 20px rgba(0,0,0,0.1);">
+      <div style="position: absolute; width: 100%; height: 2px; background-color: #8B4513; top: 50%;"></div>
+      <div style="position: absolute; width: 2px; height: 100%; background-color: #8B4513; left: 50%;"></div>
     </div>
-    <div style="position: absolute; right: 20px; top: 60px;">
-      <div style="background-color: #fff; padding: 5px 10px; border-radius: 10px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        <span style="font-size: 12px;">❤️ Sevgi: 100%</span>
+    
+    <!-- Yatak -->
+    <div style="position: absolute; width: 200px; height: 70px; background-color: #B36B6B; bottom: 100px; left: 40px; border-radius: 10px 10px 0 0;"></div>
+    <div style="position: absolute; width: 220px; height: 40px; background-color: #F5F5DC; bottom: 70px; left: 30px; border-radius: 10px; z-index: 1;"></div>
+    <div style="position: absolute; width: 50px; height: 30px; background-color: #F5F5DC; bottom: 110px; left: 40px; border-radius: 10px; transform: rotate(10deg);"></div>
+    
+    <!-- Kedi gövdesi -->
+    <div style="position: absolute; width: 100px; height: 60px; background-color: #808080; bottom: 90px; left: 100px; border-radius: 50% 30% 30% 50%; z-index: 2;"></div>
+    
+    <!-- Kedi kafası -->
+    <div style="position: absolute; width: 60px; height: 50px; background-color: #808080; bottom: 130px; left: 135px; border-radius: 50%; z-index: 3;">
+      <!-- Kedi kulakları -->
+      <div style="position: absolute; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 25px solid #808080; top: -15px; left: 5px; transform: rotate(-20deg);"></div>
+      <div style="position: absolute; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 25px solid #808080; top: -15px; right: 5px; transform: rotate(20deg);"></div>
+      
+      <!-- Kedi gözleri -->
+      <div class="cat-eye" style="position: absolute; width: 12px; height: 12px; background-color: #ffffff; border-radius: 50%; top: 20px; left: 15px; overflow: hidden; animation: blink 4s infinite;">
+        <div style="position: absolute; width: 6px; height: 12px; background-color: #000; border-radius: 50%; right: 0;"></div>
       </div>
-      <div style="background-color: #fff; padding: 5px 10px; border-radius: 10px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        <span style="font-size: 12px;">🍔 Açlık: 0%</span>
+      <div class="cat-eye" style="position: absolute; width: 12px; height: 12px; background-color: #ffffff; border-radius: 50%; top: 20px; right: 15px; overflow: hidden; animation: blink 4s infinite;">
+        <div style="position: absolute; width: 6px; height: 12px; background-color: #000; border-radius: 50%; right: 0;"></div>
       </div>
-      <div style="background-color: #fff; padding: 5px 10px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        <span style="font-size: 12px;">🎮 Oyun: 100%</span>
-      </div>
+      
+      <!-- Kedi burnu -->
+      <div style="position: absolute; width: 8px; height: 5px; background-color: #FF9AA2; border-radius: 50%; top: 32px; left: 26px;"></div>
+      
+      <!-- Kedi ağzı -->
+      <div style="position: absolute; width: 20px; height: 2px; background-color: #000; top: 40px; left: 20px; border-radius: 2px;"></div>
     </div>
+    
+    <!-- Kedi kuyruğu -->
+    <div style="position: absolute; width: 70px; height: 10px; background-color: #808080; bottom: 100px; left: 50px; border-radius: 5px; transform-origin: right center; animation: tailWag 3s infinite; z-index: 1;"></div>
+    
+    <!-- Kedi animasyonları için CSS -->
+    <style>
+      @keyframes blink {
+        0%, 45%, 55%, 100% {
+          transform: scaleY(1);
+        }
+        50% {
+          transform: scaleY(0.1);
+        }
+      }
+      
+      @keyframes tailWag {
+        0%, 100% {
+          transform: rotate(-5deg);
+        }
+        50% {
+          transform: rotate(15deg);
+        }
+      }
+    </style>
   </div>
   
-  <p><i>Bu sanal kedi, GitHub profilime her baktığınızda orada olacak! Ne kadar çok commit yaparsam o kadar mutlu olacak!</i></p>
+  <p><i>Bu benim kedim! Odamda yatağın üzerinde dinleniyor, gözlerini açıp kapatıyor ve kuyruğunu sallıyor. 
+  Profilime baktığınızda bana eşlik ediyor!</i></p>
   
   <br>
   
