@@ -10,169 +10,135 @@
   <h2>✨ Gece Odam ve Uyuyan Kedim ✨</h2>
 </div>
 
+<!-- Gece Odası ve Kedi (SVG) -->
 <div align="center">
-  <div style="
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    height: 400px;
-    margin: 0 auto;
-    background: linear-gradient(to bottom, #0f1746, #2c3e50);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-  ">
+  <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gece Arka Plan -->
+    <rect width="600" height="400" fill="#0f1746" />
+    
+    <!-- Gradient Arka Plan -->
+    <defs>
+      <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#0f1746;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <rect width="600" height="400" fill="url(#skyGradient)" />
+    
     <!-- Yıldızlar -->
-    <div style="
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-image: 
-        radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 5px),
-        radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 3px),
-        radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 4px);
-      background-size: 550px 550px, 350px 350px, 250px 250px;
-      background-position: 0 0, 40px 60px, 130px 270px;
-    "></div>
+    <g>
+      <circle cx="50" cy="50" r="1" fill="white" opacity="0.8" />
+      <circle cx="150" cy="70" r="1.5" fill="white" opacity="0.7" />
+      <circle cx="250" cy="30" r="1" fill="white" opacity="0.6" />
+      <circle cx="350" cy="90" r="1.2" fill="white" opacity="0.9" />
+      <circle cx="450" cy="40" r="1" fill="white" opacity="0.7" />
+      <circle cx="520" cy="80" r="1.3" fill="white" opacity="0.8" />
+      <circle cx="100" cy="120" r="1" fill="white" opacity="0.6" />
+      <circle cx="200" cy="140" r="1.1" fill="white" opacity="0.7" />
+      <circle cx="300" cy="100" r="1.4" fill="white" opacity="0.8" />
+      <circle cx="400" cy="130" r="1" fill="white" opacity="0.7" />
+      <circle cx="480" cy="150" r="1.2" fill="white" opacity="0.9" />
+      <circle cx="550" cy="120" r="1" fill="white" opacity="0.8" />
+      <circle cx="120" cy="180" r="1.3" fill="white" opacity="0.7" />
+      <circle cx="220" cy="200" r="1" fill="white" opacity="0.6" />
+      <circle cx="320" cy="160" r="1.5" fill="white" opacity="0.8" />
+      <circle cx="420" cy="190" r="1.2" fill="white" opacity="0.7" />
+      <circle cx="500" cy="210" r="1" fill="white" opacity="0.6" />
+      <circle cx="70" cy="240" r="1.1" fill="white" opacity="0.8" />
+      <circle cx="170" cy="260" r="1.4" fill="white" opacity="0.7" />
+      <circle cx="270" cy="220" r="1" fill="white" opacity="0.9" />
+      <circle cx="370" cy="250" r="1.3" fill="white" opacity="0.8" />
+      <circle cx="470" cy="270" r="1.2" fill="white" opacity="0.7" />
+      <circle cx="530" cy="230" r="1" fill="white" opacity="0.6" />
+    </g>
     
-    <div style="
-      position: absolute;
-      top: 50px;
-      right: 80px;
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      background: #fdfbd3;
-      box-shadow: 0 0 20px #fdfbd3;
-    "></div>
+    <!-- Ay -->
+    <circle cx="500" cy="80" r="40" fill="#fdfbd3" />
+    <circle cx="520" cy="70" r="10" fill="#0f1746" opacity="0.1" />
+    <circle cx="480" cy="85" r="8" fill="#0f1746" opacity="0.1" />
     
-    <!-- Yatak -->
-    <div style="
-      position: absolute;
-      bottom: 50px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 300px;
-      height: 60px;
-      background: #8b5a2b;
-      border-radius: 10px;
-    "></div>
+    <!-- Yatak Çerçevesi -->
+    <rect x="150" y="300" width="300" height="60" fill="#8b5a2b" rx="10" ry="10" />
     
-    <!-- Yatak üstü -->
-    <div style="
-      position: absolute;
-      bottom: 90px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 280px;
-      height: 40px;
-      background: #d4a373;
-      border-radius: 10px 10px 0 0;
-    "></div>
+    <!-- Yatak Üstü -->
+    <rect x="160" y="270" width="280" height="40" fill="#d4a373" rx="10" ry="10" />
     
     <!-- Yastık -->
-    <div style="
-      position: absolute;
-      bottom: 100px;
-      left: 50%;
-      transform: translateX(-65%);
-      width: 80px;
-      height: 30px;
-      background: #e9edc9;
-      border-radius: 10px;
-    "></div>
+    <rect x="180" y="270" width="80" height="30" fill="#e9edc9" rx="10" ry="10" />
     
     <!-- Yorgan -->
-    <div style="
-      position: absolute;
-      bottom: 105px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 240px;
-      height: 25px;
-      background: #ccd5ae;
-      border-radius: 5px;
-    "></div>
+    <rect x="180" y="270" width="240" height="25" fill="#ccd5ae" rx="5" ry="5" />
     
     <!-- Kedi -->
-    <div style="
-      position: absolute;
-      bottom: 120px;
-      left: 50%;
-      transform: translateX(-10%);
-      width: 100px;
-      height: 40px;
-      background: #6c584c;
-      border-radius: 40px;
-    "></div>
-    
-    <!-- Kedi başı -->
-    <div style="
-      position: absolute;
-      bottom: 140px;
-      left: 50%;
-      transform: translateX(15%);
-      width: 50px;
-      height: 40px;
-      background: #6c584c;
-      border-radius: 50%;
-    "></div>
-    
-    <!-- Kedi kulakları -->
-    <div style="
-      position: absolute;
-      bottom: 170px;
-      left: 50%;
-      transform: translateX(15%);
-      width: 0;
-      height: 0;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-bottom: 20px solid #6c584c;
-    "></div>
-    <div style="
-      position: absolute;
-      bottom: 170px;
-      left: 50%;
-      transform: translateX(55%);
-      width: 0;
-      height: 0;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-bottom: 20px solid #6c584c;
-    "></div>
-    
-    <!-- Kedi kuyruğu (hareket eden) -->
-    <div style="
-      position: absolute;
-      bottom: 130px;
-      left: 50%;
-      transform: translateX(-75%);
-      width: 60px;
-      height: 15px;
-      background: #6c584c;
-      border-radius: 10px;
-      transform-origin: right center;
-      animation: tailWag 2s infinite ease-in-out;
-    "></div>
-    
-    <style>
-      @keyframes tailWag {
-        0% { transform: translateX(-75%) rotate(0deg); }
-        50% { transform: translateX(-75%) rotate(15deg); }
-        100% { transform: translateX(-75%) rotate(0deg); }
-      }
-    </style>
-  </div>
+    <g>
+      <!-- Kedi Gövdesi -->
+      <ellipse cx="340" cy="260" rx="50" ry="20" fill="#6c584c" />
+      
+      <!-- Kedi Başı -->
+      <circle cx="390" cy="240" r="25" fill="#6c584c" />
+      
+      <!-- Kedi Kulakları -->
+      <polygon points="375,215 385,225 365,225" fill="#6c584c" />
+      <polygon points="405,215 415,225 395,225" fill="#6c584c" />
+      
+      <!-- Kedi Gözleri (Kapalı) -->
+      <line x1="380" y1="245" x2="390" y2="245" stroke="#513c32" stroke-width="2" />
+      <line x1="400" y1="245" x2="410" y2="245" stroke="#513c32" stroke-width="2" />
+      
+      <!-- Kedi Kuyruğu -->
+      <path d="M290,260 Q 270,230 260,250" stroke="#6c584c" stroke-width="10" fill="transparent">
+        <animateTransform 
+          attributeName="transform"
+          type="rotate"
+          from="0 290 260"
+          to="10 290 260"
+          dur="2s"
+          repeatCount="indefinite"
+          additive="sum"
+          values="0 290 260; 5 290 260; 0 290 260; -5 290 260; 0 290 260"
+          keyTimes="0; 0.25; 0.5; 0.75; 1"
+        />
+      </path>
+    </g>
+  </svg>
 </div>
 
 <div align="center">
   <p><i>Beni GitHub'da takip etmeyi unutma!</i></p>
 </div>
 
-<!-- 
-Not: GitHub profile README.md dosyasında inline CSS sınırlamaları vardır.
-Bu tasarım HTML ve CSS içeriyor ancak GitHub'da tam olarak görüntülenebilmesi için bir web sayfasına eklenmelidir.
-GitHub, güvenlik nedeniyle bazı CSS özelliklerini ve animasyonları kısıtlayabilir.
-Daha gelişmiş bir versiyon için tasarımı özel bir web sayfasına aktarabilirsiniz.
--->
+---
+
+<div align="center">
+  <h3>🚀 Yeteneklerim</h3>
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  </p>
+</div>
+
+<div align="center">
+  <h3>📊 GitHub İstatistiklerim</h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=scutieeop&show_icons=true&theme=radical" alt="GitHub İstatistikleri" />
+</div>
+
+<div align="center">
+  <h3>🔥 En Çok Kullandığım Diller</h3>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=scutieeop&layout=compact&theme=radical" alt="En Çok Kullanılan Diller" />
+</div>
+
+<div align="center">
+  <h3>🌐 Sosyal Medya</h3>
+  <a href="mailto:MAILADRESINIZ@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/HESABINIZ/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/HESABINIZ/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</div>
+
+<!-- GitHub, SVG animasyonlarını destekler ve görüntüler. Ancak SVG içindeki bazı özellikler yine de kısıtlanabilir. -->
