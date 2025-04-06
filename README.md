@@ -10,99 +10,12 @@
   <h2>✨ Gece Odam ve Uyuyan Kedim ✨</h2>
 </div>
 
-<!-- Gece Odası ve Kedi (SVG) -->
+<!-- GitHub'da düzgün görüntülenecek şekilde SVG referansı -->
 <div align="center">
-  <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
-    <!-- Gece Arka Plan -->
-    <rect width="600" height="400" fill="#0f1746" />
-    
-    <!-- Gradient Arka Plan -->
-    <defs>
-      <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" style="stop-color:#0f1746;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <rect width="600" height="400" fill="url(#skyGradient)" />
-    
-    <!-- Yıldızlar -->
-    <g>
-      <circle cx="50" cy="50" r="1" fill="white" opacity="0.8" />
-      <circle cx="150" cy="70" r="1.5" fill="white" opacity="0.7" />
-      <circle cx="250" cy="30" r="1" fill="white" opacity="0.6" />
-      <circle cx="350" cy="90" r="1.2" fill="white" opacity="0.9" />
-      <circle cx="450" cy="40" r="1" fill="white" opacity="0.7" />
-      <circle cx="520" cy="80" r="1.3" fill="white" opacity="0.8" />
-      <circle cx="100" cy="120" r="1" fill="white" opacity="0.6" />
-      <circle cx="200" cy="140" r="1.1" fill="white" opacity="0.7" />
-      <circle cx="300" cy="100" r="1.4" fill="white" opacity="0.8" />
-      <circle cx="400" cy="130" r="1" fill="white" opacity="0.7" />
-      <circle cx="480" cy="150" r="1.2" fill="white" opacity="0.9" />
-      <circle cx="550" cy="120" r="1" fill="white" opacity="0.8" />
-      <circle cx="120" cy="180" r="1.3" fill="white" opacity="0.7" />
-      <circle cx="220" cy="200" r="1" fill="white" opacity="0.6" />
-      <circle cx="320" cy="160" r="1.5" fill="white" opacity="0.8" />
-      <circle cx="420" cy="190" r="1.2" fill="white" opacity="0.7" />
-      <circle cx="500" cy="210" r="1" fill="white" opacity="0.6" />
-      <circle cx="70" cy="240" r="1.1" fill="white" opacity="0.8" />
-      <circle cx="170" cy="260" r="1.4" fill="white" opacity="0.7" />
-      <circle cx="270" cy="220" r="1" fill="white" opacity="0.9" />
-      <circle cx="370" cy="250" r="1.3" fill="white" opacity="0.8" />
-      <circle cx="470" cy="270" r="1.2" fill="white" opacity="0.7" />
-      <circle cx="530" cy="230" r="1" fill="white" opacity="0.6" />
-    </g>
-    
-    <!-- Ay -->
-    <circle cx="500" cy="80" r="40" fill="#fdfbd3" />
-    <circle cx="520" cy="70" r="10" fill="#0f1746" opacity="0.1" />
-    <circle cx="480" cy="85" r="8" fill="#0f1746" opacity="0.1" />
-    
-    <!-- Yatak Çerçevesi -->
-    <rect x="150" y="300" width="300" height="60" fill="#8b5a2b" rx="10" ry="10" />
-    
-    <!-- Yatak Üstü -->
-    <rect x="160" y="270" width="280" height="40" fill="#d4a373" rx="10" ry="10" />
-    
-    <!-- Yastık -->
-    <rect x="180" y="270" width="80" height="30" fill="#e9edc9" rx="10" ry="10" />
-    
-    <!-- Yorgan -->
-    <rect x="180" y="270" width="240" height="25" fill="#ccd5ae" rx="5" ry="5" />
-    
-    <!-- Kedi -->
-    <g>
-      <!-- Kedi Gövdesi -->
-      <ellipse cx="340" cy="260" rx="50" ry="20" fill="#6c584c" />
-      
-      <!-- Kedi Başı -->
-      <circle cx="390" cy="240" r="25" fill="#6c584c" />
-      
-      <!-- Kedi Kulakları -->
-      <polygon points="375,215 385,225 365,225" fill="#6c584c" />
-      <polygon points="405,215 415,225 395,225" fill="#6c584c" />
-      
-      <!-- Kedi Gözleri (Kapalı) -->
-      <line x1="380" y1="245" x2="390" y2="245" stroke="#513c32" stroke-width="2" />
-      <line x1="400" y1="245" x2="410" y2="245" stroke="#513c32" stroke-width="2" />
-      
-      <!-- Kedi Kuyruğu -->
-      <path d="M290,260 Q 270,230 260,250" stroke="#6c584c" stroke-width="10" fill="transparent">
-        <animateTransform 
-          attributeName="transform"
-          type="rotate"
-          from="0 290 260"
-          to="10 290 260"
-          dur="2s"
-          repeatCount="indefinite"
-          additive="sum"
-          values="0 290 260; 5 290 260; 0 290 260; -5 290 260; 0 290 260"
-          keyTimes="0; 0.25; 0.5; 0.75; 1"
-        />
-      </path>
-    </g>
-  </svg>
+  <img src="night_room.svg" alt="Gece Odası ve Uyuyan Kedi" width="600" />
 </div>
 
+<!-- Eğer SVG görüntülenmezse alternatif görsel olarak GIF eklenebilir -->
 <div align="center">
   <p><i>Beni GitHub'da takip etmeyi unutma!</i></p>
 </div>
@@ -140,5 +53,3 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
-
-<!-- GitHub, SVG animasyonlarını destekler ve görüntüler. Ancak SVG içindeki bazı özellikler yine de kısıtlanabilir. -->
