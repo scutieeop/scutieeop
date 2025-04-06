@@ -212,40 +212,145 @@ const berkay = {
 ## <div align="center">🛠️ Projelerim</div>
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/scutieeop/proje1">
-          <img src="https://via.placeholder.com/150?text=Kişisel+Web" width="150" alt="Proje 1" /><br />
-          <sub><b>Kişisel Web Sitem</b></sub>
+  <p>GitHub projelerime göz atın 👇 Detaylar için projelere tıklayabilirsiniz.</p>
+</div>
+
+<div align="center">
+  <details>
+    <summary><strong>🌐 Kişisel Web Sitem</strong></summary>
+    <div align="center">
+      <h3>Kişisel Web Sitem</h3>
+      <img src="https://via.placeholder.com/550x300?text=Kişisel+Web+Sitesi+Ekran+Görüntüsü" width="550" alt="Kişisel Web Sitesi" />
+      <p>HTML, CSS ve JavaScript ile geliştirdiğim kişisel portfolyo websitem. Minimalist tasarım ve kullanıcı dostu arayüz prensiplerini uyguladım.</p>
+      <h4>Özellikler:</h4>
+      <ul align="left">
+        <li>Responsive tasarım - tüm cihazlarda sorunsuz görüntüleme</li>
+        <li>Koyu/açık tema seçeneği</li>
+        <li>Animasyonlu geçişler ve scroll efektleri</li>
+        <li>İletişim formu ve sosyal medya entegrasyonu</li>
+        <li>Proje galerisi ve filtreleme özellikleri</li>
+      </ul>
+      <div>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      </div>
+      <div align="center">
+        <a href="https://github.com/scutieeop/proje1" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-View%20Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
         </a>
-        <p>HTML, CSS, JavaScript ile geliştirilen kişisel web sitesi. Minimalist tasarım prensiplerini benimseyerek oluşturduğum portfolyo.</p>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-      </td>
-      <td align="center">
-        <a href="https://github.com/scutieeop/proje2">
-          <img src="https://via.placeholder.com/150?text=Todo+App" width="150" alt="Proje 2" /><br />
-          <sub><b>Todo Uygulaması</b></sub>
+        <a href="https://scutieeop.github.io/proje1" target="_blank">
+          <img src="https://img.shields.io/badge/Demo-Live%20Preview-success?style=for-the-badge&logo=github" alt="Live Demo" />
         </a>
-        <p>React ile geliştirilmiş modern görev yönetim uygulaması. Kategorilendirme, filtreleme ve bildirim özellikleri içerir.</p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
-      </td>
-      <td align="center">
-        <a href="https://github.com/scutieeop/proje3">
-          <img src="https://via.placeholder.com/150?text=Hava+Durumu" width="150" alt="Proje 3" /><br />
-          <sub><b>Hava Durumu Uygulaması</b></sub>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><strong>✅ Todo Uygulaması</strong></summary>
+    <div align="center">
+      <h3>Modern Todo Uygulaması</h3>
+      <img src="https://via.placeholder.com/550x300?text=Todo+Uygulaması+Ekran+Görüntüsü" width="550" alt="Todo Uygulaması" />
+      <p>React ve Firebase kullanarak geliştirdiğim kapsamlı görev yönetim uygulaması. Kullanıcılar görevlerini kategorilere ayırabilir, önceliklendirebilir ve ilerlemelerini takip edebilirler.</p>
+      <h4>Özellikler:</h4>
+      <ul align="left">
+        <li>Kullanıcı hesapları ve kimlik doğrulama sistemi</li>
+        <li>Kategori ve etiket bazlı görev organizasyonu</li>
+        <li>Öncelik düzeyleri ve son tarih bildirimleri</li>
+        <li>Sürükle-bırak arayüzü</li>
+        <li>İlerleme istatistikleri ve grafikler</li>
+        <li>Offline kullanım ve senkronizasyon desteği</li>
+      </ul>
+      <div>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+      </div>
+      <div align="center">
+        <a href="https://github.com/scutieeop/proje2" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-View%20Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
         </a>
-        <p>API kullanarak hava durumu bilgilerini gösteren uygulama. Günlük ve haftalık tahminler ile konum bazlı öneriler sunar.</p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/API-00ADD8?style=flat-square" alt="API" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-      </td>
-    </tr>
-  </table>
+        <a href="https://scutieeop.github.io/proje2" target="_blank">
+          <img src="https://img.shields.io/badge/Demo-Live%20Preview-success?style=for-the-badge&logo=github" alt="Live Demo" />
+        </a>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><strong>☁️ Hava Durumu Uygulaması</strong></summary>
+    <div align="center">
+      <h3>Hava Durumu Uygulaması</h3>
+      <img src="https://via.placeholder.com/550x300?text=Hava+Durumu+Uygulaması+Ekran+Görüntüsü" width="550" alt="Hava Durumu" />
+      <p>Açık hava durumu API'lerini kullanarak geliştirdiğim interaktif hava durumu uygulaması. Kullanıcılar şehir arayabilir ve anlık, günlük ve haftalık hava durumu tahminlerini görüntüleyebilirler.</p>
+      <h4>Özellikler:</h4>
+      <ul align="left">
+        <li>Konum bazlı otomatik hava durumu gösterimi</li>
+        <li>5 günlük detaylı tahmin</li>
+        <li>Sıcaklık, nem, rüzgar hızı ve yağış olasılığı verileri</li>
+        <li>Animasyonlu hava durumu ikonları</li>
+        <li>Favori konumları kaydetme</li>
+        <li>Hava kalitesi indeksi entegrasyonu</li>
+      </ul>
+      <div>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/OpenWeatherMap-API-00ADD8?style=for-the-badge" alt="API" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+      </div>
+      <div align="center">
+        <a href="https://github.com/scutieeop/proje3" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-View%20Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+        </a>
+        <a href="https://scutieeop.github.io/proje3" target="_blank">
+          <img src="https://img.shields.io/badge/Demo-Live%20Preview-success?style=for-the-badge&logo=github" alt="Live Demo" />
+        </a>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><strong>🎮 Pixel Art Oyunum</strong></summary>
+    <div align="center">
+      <h3>Retro Pixel Art Macera Oyunu</h3>
+      <img src="https://via.placeholder.com/550x300?text=Pixel+Art+Oyunu+Ekran+Görüntüsü" width="550" alt="Pixel Art Oyunu" />
+      <p>JavaScript ve HTML5 Canvas kullanarak geliştirdiğim retro tarzda 2D pixel art platform oyunu. Klasik oyunlardan ilham alarak modern tarayıcı teknolojileriyle oluşturuldu.</p>
+      <h4>Özellikler:</h4>
+      <ul align="left">
+        <li>El çizimi pixel art grafikler</li>
+        <li>Fizik ve çarpışma sistemleri</li>
+        <li>Düşmanlar ve temel yapay zeka</li>
+        <li>Bölüm tasarımı ve zorluk seviyeleri</li>
+        <li>Özelleştirilebilir karakter</li>
+        <li>Yerel skorboard ve kaydetme sistemi</li>
+      </ul>
+      <div>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/HTML5-Canvas-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Canvas" />
+        <img src="https://img.shields.io/badge/Pixel%20Art-FF69B4?style=for-the-badge" alt="Pixel Art" />
+      </div>
+      <div align="center">
+        <a href="https://github.com/scutieeop/pixel-game" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-View%20Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+        </a>
+        <a href="https://scutieeop.github.io/pixel-game" target="_blank">
+          <img src="https://img.shields.io/badge/Demo-Play%20Now-success?style=for-the-badge&logo=github" alt="Play Demo" />
+        </a>
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><strong>📱 Tüm Projelerim</strong></summary>
+    <div align="center">
+      <h3>Diğer Projelerim</h3>
+      <p>GitHub profilimde daha fazla proje bulabilirsiniz. Yeni projeler sürekli eklenmektedir.</p>
+      <div align="center">
+        <a href="https://github.com/scutieeop?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Tüm%20Projelerimi%20Gör-181717?style=for-the-badge&logo=github" alt="Tüm Projeler" />
+        </a>
+      </div>
+    </div>
+  </details>
 </div>
 
 ## <div align="center">🎮 Serbest Zaman Aktivitelerim</div>
