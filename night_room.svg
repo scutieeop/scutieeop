@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
-  <!-- Arka Plan - Duvarlar -->
-  <rect width="800" height="600" fill="#2c3e50" />
-  <rect width="800" height="450" fill="#34495e" />
+  <!-- Arka Plan - Duvarlar (Daha canlı renk) -->
+  <rect width="800" height="600" fill="#1a2639" />
+  <rect width="800" height="450" fill="#2a3f5f" />
   
-  <!-- Zemin Döşemesi (Pixelart Tarzı) -->
+  <!-- Zemin Döşemesi (Pixelart Tarzı - Daha sıcak renkler) -->
   <g id="floor">
-    <rect x="0" y="450" width="800" height="150" fill="#5d4037" />
+    <rect x="0" y="450" width="800" height="150" fill="#6d4c41" />
     <!-- Zemin Deseni Pixel Tarzı -->
-    <g fill="#4e342e">
+    <g fill="#5d4037">
       <rect x="0" y="450" width="40" height="40" />
       <rect x="80" y="450" width="40" height="40" />
       <rect x="160" y="450" width="40" height="40" />
@@ -44,8 +44,8 @@
     </g>
   </g>
   
-  <!-- Duvar Süsü - Pixel Art Tarzı Desen -->
-  <g fill="#2c3e50">
+  <!-- Duvar Süsü - Pixel Art Tarzı Desen - Daha canlı renkler -->
+  <g fill="#1c2b3c">
     <rect x="10" y="10" width="20" height="20" />
     <rect x="50" y="10" width="20" height="20" />
     <rect x="90" y="10" width="20" height="20" />
@@ -72,7 +72,7 @@
   <g id="window">
     <!-- Pencere Çerçevesi -->
     <rect x="50" y="80" width="300" height="250" fill="#8b5a2b" rx="5" />
-    <rect x="60" y="90" width="280" height="230" fill="#263238" />
+    <rect x="60" y="90" width="280" height="230" fill="#1c2c40" />
     
     <!-- Pencere Çerçeve Bölmeleri -->
     <rect x="195" y="90" width="10" height="230" fill="#8b5a2b" />
@@ -80,82 +80,96 @@
     
     <!-- Dışarısı - Gece Manzarası (Pixelart Stil) -->
     <g id="outside-view">
-      <!-- Gece Gökyüzü -->
-      <rect x="65" y="95" width="125" height="100" fill="#0f1746" />
-      <rect x="205" y="95" width="130" height="100" fill="#0f1746" />
-      <rect x="65" y="205" width="125" height="110" fill="#0f1746" />
-      <rect x="205" y="205" width="130" height="110" fill="#0f1746" />
+      <!-- Gece Gökyüzü - Daha zengin renk -->
+      <rect x="65" y="95" width="125" height="100" fill="#0c1338" />
+      <rect x="205" y="95" width="130" height="100" fill="#0c1338" />
+      <rect x="65" y="205" width="125" height="110" fill="#0c1338" />
+      <rect x="205" y="205" width="130" height="110" fill="#0c1338" />
       
-      <!-- Yıldızlar (Pixel Art Stili) -->
-      <rect x="90" y="110" width="2" height="2" fill="white" />
-      <rect x="150" y="130" width="3" height="3" fill="white" />
-      <rect x="120" y="150" width="2" height="2" fill="white" />
-      <rect x="85" y="170" width="2" height="2" fill="white" />
-      <rect x="130" y="105" width="2" height="2" fill="white" />
-      <rect x="170" y="140" width="2" height="2" fill="white" />
+      <!-- Yıldızlar (Pixel Art Stili) - Daha parlak -->
+      <rect x="90" y="110" width="2" height="2" fill="#ffffff" />
+      <rect x="150" y="130" width="3" height="3" fill="#ffffff" />
+      <rect x="120" y="150" width="2" height="2" fill="#ffffff" />
+      <rect x="85" y="170" width="2" height="2" fill="#ffffff" />
+      <rect x="130" y="105" width="2" height="2" fill="#ffffff" />
+      <rect x="170" y="140" width="2" height="2" fill="#ffffff" />
       
-      <rect x="230" y="120" width="3" height="3" fill="white" />
-      <rect x="280" y="100" width="2" height="2" fill="white" />
-      <rect x="260" y="150" width="2" height="2" fill="white" />
-      <rect x="310" y="140" width="3" height="3" fill="white" />
-      <rect x="240" y="170" width="2" height="2" fill="white" />
+      <rect x="230" y="120" width="3" height="3" fill="#ffffff" />
+      <rect x="280" y="100" width="2" height="2" fill="#ffffff" />
+      <rect x="260" y="150" width="2" height="2" fill="#ffffff" />
+      <rect x="310" y="140" width="3" height="3" fill="#ffffff" />
+      <rect x="240" y="170" width="2" height="2" fill="#ffffff" />
       
-      <rect x="100" y="230" width="2" height="2" fill="white" />
-      <rect x="140" y="260" width="3" height="3" fill="white" />
-      <rect x="80" y="290" width="2" height="2" fill="white" />
-      <rect x="170" y="280" width="2" height="2" fill="white" />
-      <rect x="120" y="240" width="2" height="2" fill="white" />
+      <rect x="100" y="230" width="2" height="2" fill="#ffffff" />
+      <rect x="140" y="260" width="3" height="3" fill="#ffffff" />
+      <rect x="80" y="290" width="2" height="2" fill="#ffffff" />
+      <rect x="170" y="280" width="2" height="2" fill="#ffffff" />
+      <rect x="120" y="240" width="2" height="2" fill="#ffffff" />
       
-      <rect x="220" y="220" width="2" height="2" fill="white" />
-      <rect x="270" y="250" width="3" height="3" fill="white" />
-      <rect x="300" y="280" width="2" height="2" fill="white" />
-      <rect x="240" y="290" width="2" height="2" fill="white" />
-      <rect x="290" y="230" width="2" height="2" fill="white" />
+      <rect x="220" y="220" width="2" height="2" fill="#ffffff" />
+      <rect x="270" y="250" width="3" height="3" fill="#ffffff" />
+      <rect x="300" y="280" width="2" height="2" fill="#ffffff" />
+      <rect x="240" y="290" width="2" height="2" fill="#ffffff" />
+      <rect x="290" y="230" width="2" height="2" fill="#ffffff" />
       
-      <!-- Ay (Pixel Art Stili) -->
+      <!-- Parlayan yıldızlar (GIF'teki gibi) -->
+      <rect x="125" y="125" width="4" height="4" fill="#fff9c4">
+        <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite" />
+      </rect>
+      <rect x="275" y="135" width="4" height="4" fill="#fff9c4">
+        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+      </rect>
+      <rect x="90" y="260" width="4" height="4" fill="#fff9c4">
+        <animate attributeName="opacity" values="1;0.5;1" dur="2.5s" repeatCount="indefinite" />
+      </rect>
+      <rect x="315" y="240" width="4" height="4" fill="#fff9c4">
+        <animate attributeName="opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite" />
+      </rect>
+      
+      <!-- Ay (Pixel Art Stili) - Daha parlak sarı -->
       <g>
-        <rect x="250" y="120" width="40" height="40" fill="#fdfbd3" />
-        <rect x="245" y="125" width="5" height="30" fill="#fdfbd3" />
-        <rect x="290" y="125" width="5" height="30" fill="#fdfbd3" />
-        <rect x="250" y="115" width="30" height="5" fill="#fdfbd3" />
-        <rect x="250" y="160" width="30" height="5" fill="#fdfbd3" />
+        <rect x="250" y="120" width="40" height="40" fill="#fff9c4" />
+        <rect x="245" y="125" width="5" height="30" fill="#fff9c4" />
+        <rect x="290" y="125" width="5" height="30" fill="#fff9c4" />
+        <rect x="250" y="115" width="30" height="5" fill="#fff9c4" />
+        <rect x="250" y="160" width="30" height="5" fill="#fff9c4" />
         
         <!-- Ay Üzerindeki Gölgeler (Kraterler) -->
-        <rect x="260" y="130" width="5" height="5" fill="#e6e2c0" />
-        <rect x="275" y="145" width="7" height="7" fill="#e6e2c0" />
-        <rect x="255" y="150" width="4" height="4" fill="#e6e2c0" />
+        <rect x="260" y="130" width="5" height="5" fill="#f5e7ab" />
+        <rect x="275" y="145" width="7" height="7" fill="#f5e7ab" />
+        <rect x="255" y="150" width="4" height="4" fill="#f5e7ab" />
       </g>
       
-      <!-- Uzak Dağlar (Pixelart Stili) -->
-      <polygon points="65,195 120,150 145,170 190,145 65,145" fill="#1a2530" />
-      <polygon points="205,195 240,160 270,170 310,150 335,165 205,165" fill="#1a2530" />
+      <!-- Uzak Dağlar (Pixelart Stili) - Daha koyu mavi -->
+      <polygon points="65,195 120,150 145,170 190,145 65,145" fill="#142334" />
+      <polygon points="205,195 240,160 270,170 310,150 335,165 205,165" fill="#142334" />
       
-      <!-- Uzak Ağaçlar (Pixel Art Stili) -->
+      <!-- Uzak Ağaçlar (Pixel Art Stili) - Daha koyu yeşil -->
       <g>
-        <rect x="80" y="240" width="10" height="20" fill="#2d3e50" />
-        <rect x="75" y="230" width="20" height="10" fill="#2d3e50" />
-        <rect x="70" y="220" width="30" height="10" fill="#2d3e50" />
+        <rect x="80" y="240" width="10" height="20" fill="#1e2e3e" />
+        <rect x="75" y="230" width="20" height="10" fill="#1e2e3e" />
+        <rect x="70" y="220" width="30" height="10" fill="#1e2e3e" />
         
-        <rect x="130" y="250" width="10" height="20" fill="#2d3e50" />
-        <rect x="125" y="240" width="20" height="10" fill="#2d3e50" />
-        <rect x="120" y="230" width="30" height="10" fill="#2d3e50" />
+        <rect x="130" y="250" width="10" height="20" fill="#1e2e3e" />
+        <rect x="125" y="240" width="20" height="10" fill="#1e2e3e" />
+        <rect x="120" y="230" width="30" height="10" fill="#1e2e3e" />
         
-        <rect x="210" y="245" width="10" height="20" fill="#2d3e50" />
-        <rect x="205" y="235" width="20" height="10" fill="#2d3e50" />
-        <rect x="200" y="225" width="30" height="10" fill="#2d3e50" />
+        <rect x="210" y="245" width="10" height="20" fill="#1e2e3e" />
+        <rect x="205" y="235" width="20" height="10" fill="#1e2e3e" />
+        <rect x="200" y="225" width="30" height="10" fill="#1e2e3e" />
         
-        <rect x="260" y="255" width="10" height="20" fill="#2d3e50" />
-        <rect x="255" y="245" width="20" height="10" fill="#2d3e50" />
-        <rect x="250" y="235" width="30" height="10" fill="#2d3e50" />
+        <rect x="260" y="255" width="10" height="20" fill="#1e2e3e" />
+        <rect x="255" y="245" width="20" height="10" fill="#1e2e3e" />
+        <rect x="250" y="235" width="30" height="10" fill="#1e2e3e" />
         
-        <rect x="310" y="240" width="10" height="20" fill="#2d3e50" />
-        <rect x="305" y="230" width="20" height="10" fill="#2d3e50" />
-        <rect x="300" y="220" width="30" height="10" fill="#2d3e50" />
+        <rect x="310" y="240" width="10" height="20" fill="#1e2e3e" />
+        <rect x="305" y="230" width="20" height="10" fill="#1e2e3e" />
+        <rect x="300" y="220" width="30" height="10" fill="#1e2e3e" />
       </g>
     </g>
   </g>
   
-  <!-- Kitaplık (Pixel Art Stili) -->
+  <!-- Kitaplık (Pixel Art Stili) - Daha zengin renkler -->
   <g id="bookshelf">
     <!-- Ana Çerçeve -->
     <rect x="500" y="100" width="240" height="300" fill="#5d4037" />
@@ -220,6 +234,10 @@
       <rect x="545" y="335" width="5" height="15" fill="#33691e" />
       <rect x="540" y="330" width="5" height="15" fill="#33691e" />
       <rect x="550" y="340" width="5" height="10" fill="#33691e" />
+      <!-- Yapraklar için animasyon -->
+      <rect x="535" y="320" width="5" height="5" fill="#4caf50">
+        <animate attributeName="opacity" values="1;0.7;1" dur="4s" repeatCount="indefinite" />
+      </rect>
       
       <!-- Küçük Heykel -->
       <rect x="600" y="360" width="20" height="30" fill="#B0BEC5" />
@@ -237,7 +255,7 @@
     </g>
   </g>
   
-  <!-- Kedi Tablosu (Pixel Art Stili) -->
+  <!-- Kedi Tablosu (Pixel Art Stili) - Daha canlı renkler -->
   <g id="cat-painting">
     <!-- Tablo Çerçevesi -->
     <rect x="400" y="80" width="80" height="100" fill="#8d6e63" />
@@ -246,7 +264,7 @@
     <!-- Pixel Art Kedi Tablosu İçeriği -->
     <g>
       <!-- Arka Plan -->
-      <rect x="410" y="90" width="60" height="80" fill="#b39ddb" />
+      <rect x="410" y="90" width="60" height="80" fill="#9575cd" />
       
       <!-- Pixel Art Kedi Baş -->
       <rect x="425" y="110" width="30" height="25" fill="#424242" />
@@ -273,10 +291,18 @@
       <!-- Kedi Kuyruğu -->
       <rect x="450" y="160" width="15" height="5" fill="#424242" />
       <rect x="460" y="155" width="5" height="5" fill="#424242" />
+      
+      <!-- Kedi Gözleri Efekti -->
+      <rect x="430" y="120" width="5" height="5" fill="#76ff03">
+        <animate attributeName="opacity" values="1;0.5;1" dur="5s" repeatCount="indefinite" />
+      </rect>
+      <rect x="445" y="120" width="5" height="5" fill="#76ff03">
+        <animate attributeName="opacity" values="1;0.5;1" dur="5s" repeatCount="indefinite" />
+      </rect>
     </g>
   </g>
 
-  <!-- Detaylı Kedi (Yatakta) -->
+  <!-- Detaylı Kedi (Yatakta) - GIF'teki gibi daha fazla detay -->
   <g id="cat-on-bed">
     <!-- Yatak -->
     <rect x="150" y="450" width="300" height="40" fill="#8d6e63" />
@@ -326,13 +352,16 @@
       <rect x="285" y="410" width="5" height="5" fill="#4e342e" />
       <rect x="370" y="410" width="5" height="5" fill="#4e342e" />
       
-      <!-- Kedi Kuyruğu (Pixelart Stili) - Daha Canlı -->
-      <g>
+      <!-- Kedi Kuyruğu (Pixelart Stili) - GIF'teki gibi hafif animasyon -->
+      <g id="cat-tail">
         <rect x="270" y="395" width="10" height="5" fill="#5d4037" />
         <rect x="260" y="390" width="10" height="5" fill="#5d4037" />
         <rect x="250" y="385" width="10" height="5" fill="#5d4037" />
         <rect x="240" y="380" width="10" height="5" fill="#5d4037" />
         <rect x="230" y="375" width="10" height="5" fill="#5d4037" />
+        
+        <!-- Kuyruk hareketi animasyonu -->
+        <animate attributeName="opacity" values="1;0.9;1" dur="3s" repeatCount="indefinite" />
       </g>
       
       <!-- Kedi Gölgesi -->
@@ -340,38 +369,89 @@
     </g>
   </g>
   
-  <!-- Odadaki Diğer Detaylar -->
-  <g id="room-details">
-    <!-- Küçük Masa ve Üstündekiler (Pixel Art Stili) -->
+  <!-- Bilgisayar (GIF'ten ilham alınarak eklendi) -->
+  <g id="computer-desk">
+    <!-- Çalışma Masası -->
     <rect x="50" y="400" width="80" height="50" fill="#795548" />
     <rect x="55" y="450" width="10" height="50" fill="#5d4037" />
     <rect x="115" y="450" width="10" height="50" fill="#5d4037" />
     
+    <!-- Bilgisayar Ekranı -->
+    <rect x="60" y="370" width="60" height="40" fill="#455a64" />
+    <rect x="65" y="375" width="50" height="30" fill="#102027" />
+    
+    <!-- Ekran İçeriği (Code) -->
+    <g fill="#4fc3f7">
+      <rect x="70" y="380" width="10" height="2" />
+      <rect x="85" y="380" width="15" height="2" />
+      <rect x="70" y="385" width="25" height="2" />
+      <rect x="70" y="390" width="20" height="2" />
+      <rect x="95" y="390" width="10" height="2" />
+      <rect x="70" y="395" width="15" height="2" />
+      <rect x="90" y="395" width="20" height="2" />
+      <rect x="70" y="400" width="30" height="2" />
+    </g>
+    
+    <!-- Klavye -->
+    <rect x="70" y="415" width="40" height="5" fill="#37474f" />
+    <rect x="75" y="414" width="30" height="1" fill="#cfd8dc" />
+    
+    <!-- Fare -->
+    <rect x="115" y="415" width="10" height="5" fill="#37474f" />
+    
+    <!-- Animasyon: Kodlamanın yanıp sönme efekti -->
+    <rect x="80" y="385" width="2" height="15" fill="#ffffff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+  
+  <!-- Odadaki Diğer Detaylar -->
+  <g id="room-details">
     <!-- Masa Üstündeki Eşyalar -->
-    <rect x="70" y="390" width="40" height="10" fill="#b0bec5" /> <!-- Laptop -->
-    <rect x="60" y="380" width="15" height="20" fill="#ff8a65" /> <!-- Ders Kitabı -->
-    <rect x="100" y="380" width="10" height="15" fill="#81c784" /> <!-- Bitki -->
+    <rect x="40" y="380" width="15" height="20" fill="#ff8a65" /> <!-- Ders Kitabı -->
+    
+    <!-- Bitki - Daha detaylı -->
+    <rect x="100" y="380" width="10" height="15" fill="#81c784" />
     <rect x="100" y="375" width="10" height="5" fill="#388e3c" />
     <rect x="102" y="370" width="6" height="5" fill="#388e3c" />
+    <rect x="102" y="365" width="2" height="5" fill="#388e3c" />
+    <rect x="106" y="365" width="2" height="5" fill="#388e3c" />
     
-    <!-- Oda Lambası (Pixel Art) -->
+    <!-- Oda Lambası (Pixel Art) - Daha canlı ışık -->
     <rect x="700" y="350" width="20" height="100" fill="#5d4037" />
     <rect x="690" y="350" width="40" height="10" fill="#5d4037" />
     <rect x="690" y="340" width="40" height="10" fill="#b39ddb" />
     <rect x="685" y="330" width="50" height="10" fill="#7e57c2" />
     
-    <!-- Lamba Işığı -->
-    <ellipse cx="710" cy="330" rx="25" ry="5" fill="#ede7f6" opacity="0.4" />
+    <!-- Lamba Işığı Animasyonu -->
+    <ellipse cx="710" cy="330" rx="25" ry="5" fill="#ede7f6" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite" />
+    </ellipse>
     
     <!-- Duvar Süsü - Küçük Pixelart Çerçeve -->
     <rect x="650" y="150" width="40" height="40" fill="#8d6e63" />
     <rect x="655" y="155" width="30" height="30" fill="#ffeb3b" />
+    <g>
+      <rect x="660" y="160" width="20" height="20" fill="#ffcc80" />
+      <rect x="665" y="165" width="10" height="10" fill="#ff9800" />
+    </g>
     
-    <!-- Halı (Pixel Art) -->
-    <rect x="180" y="500" width="240" height="80" fill="#7986cb" />
-    <rect x="190" y="510" width="220" height="60" fill="#5c6bc0" />
-    <rect x="200" y="520" width="200" height="40" fill="#3f51b5" />
-    <rect x="210" y="530" width="180" height="20" fill="#303f9f" />
+    <!-- Halı (Pixel Art) - Daha canlı renkler -->
+    <rect x="180" y="500" width="240" height="80" fill="#5c6bc0" />
+    <rect x="190" y="510" width="220" height="60" fill="#3f51b5" />
+    <rect x="200" y="520" width="200" height="40" fill="#303f9f" />
+    <rect x="210" y="530" width="180" height="20" fill="#1a237e" />
+    
+    <!-- Halı Deseni -->
+    <g fill="#9fa8da" opacity="0.5">
+      <rect x="220" y="515" width="10" height="10" />
+      <rect x="270" y="515" width="10" height="10" />
+      <rect x="320" y="515" width="10" height="10" />
+      <rect x="370" y="515" width="10" height="10" />
+      <rect x="245" y="535" width="10" height="10" />
+      <rect x="295" y="535" width="10" height="10" />
+      <rect x="345" y="535" width="10" height="10" />
+    </g>
   </g>
   
   <!-- Pixelart Stili Işık ve Gölge Efektleri -->
@@ -383,8 +463,11 @@
     <!-- Pencere Işık Efekti -->
     <rect x="45" y="330" width="310" height="10" fill="#bbdefb" opacity="0.1" />
     <rect x="350" y="330" width="10" height="120" fill="#bbdefb" opacity="0.1" />
+    
+    <!-- Genel Oda Aydınlatması -->
+    <rect x="0" y="0" width="800" height="600" fill="#ffffff" opacity="0.03" />
   </g>
   
   <!-- Pixel Art İmzası -->
-  <text x="750" y="580" font-family="Courier New" font-size="10" fill="#fff" opacity="0.7">Berkay</text>
+  <text x="740" y="580" font-family="Courier New" font-size="12" fill="#fff" opacity="0.7">Berkay</text>
 </svg> 
